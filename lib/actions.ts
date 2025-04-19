@@ -84,7 +84,7 @@
 import type { VideoInfo, DownloadProgress, DownloadResponse } from "@/lib/types"
 
 // Update this to your actual backend URL
-const API_BASE_URL = "http://localhost:8000"
+const API_BASE_URL = "http://35.238.56.13:8000"
 
 export async function searchVideos(query: string): Promise<VideoInfo[]> {
   try {
