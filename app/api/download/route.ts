@@ -58,7 +58,7 @@ export async function GET(request: NextRequest) {
   }
 
   // Update this to your actual backend URL
-  const API_BASE_URL = "http://localhost:8000"
+  const API_BASE_URL = "http://35.238.56.13:8000"
 
   try {
     const response = await fetch(`${API_BASE_URL}/download/${downloadId}/file`)
