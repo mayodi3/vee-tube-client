@@ -73,7 +73,7 @@ const VideoGrid = ({ videos, isLoading }: VideoGridProps) => {
       <div className="flex flex-col justify-center items-center min-h-[400px] text-center">
         <Heart className="h-16 w-16 text-primary/50 mb-4" />
         <h2 className="text-2xl font-bold text-primary">
-          Search for VeeTube videos
+          Dedicated to Veronica
         </h2>
         <p className="text-muted-foreground mt-2">
           Enter a search term to find videos
